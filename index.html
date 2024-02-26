@@ -1,31 +1,116 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <title>My Website</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div class="menu">
-            <div class="logo-container">
-                <img src="images/logo.jpg" alt="logo">
-                <h1>Georg</h1>
-            </div>
-                <ul class="list">
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Content</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-        </header> 
-              
-        <div class="card">
-            <div class="image-container"><img src="images/logo.jpg" alt=""></div>
-            <h1>Video</h1> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        </div>      
-            
-    </body>      
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="queries.css">
+    
+    <title>QuickCoffe</title>
+    <link rel="icon" type="image/png" href="subjects\shop_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-menu-header menu-header">
+            <div class="doodles"><img src="subjects\wawedoodles.jpg" alt=""></div>
+            <div class="item item-0"><img class="shop_icon" src="subjects\shop_icon.png" alt=""></div>
+            <div class="item item-2"><a href="about_us.html"><h2 class="menu-text">Menu</h2></a></div>
+            <div class="item item-3"><a href="#"><h2 class="menu-text">About Us</h2></a></div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="background-col" id="column_1"></div>
+            <div class="background-col" id="column_2"></div>
+            <div class="background-col" id="column_3"></div>
+        </section>
+        <section class="row">  
+            <section class="news">
+                <div class="new-card-body-container">
+                    <div class="new-card-body-header">
+                        <h1 id="new-title">Nový druh kávy</h1>
+                    </div>
+                    <div class="new-card-body">
+                        <div class="card-body-container">
+                            <div class="card-body-image">
+                                <img src="subjects\image.jpg" alt="" class="coffe_image">
+                            </div>
+                            <div class="card-body-item">
+                                <h3 id="text" class="text">Nová zrnková káva Single - Origin Guatemala už viac ako desať rokov obhajuje svojou chuťou titul „takmer nebeská“.</h3>
+                                <!-- <script> 
+                                    document.getElementsId("text").innerHTML = "Hello World!";
+                                </script> -->
+                            </div>
+                        </div>
+                        <div class="card-body-container-bottom">
+                            <div></div>
+                            <div class="card-body-button-link">
+                                <a href="#"> <h3>Čítať viac</h3></a>
+                            </div>
+                            <div class="card-body-emoji">
+                                <a href="https://www.instagram.com/?hl=en"><img src="subjects\instagram_icon.png" alt=""></a>
+                            </div>
+                        </div>  
+                    </div>  
+                </div> 
+                <div class="new-card-body-container">
+                    <div class="new-card-body-header">
+                        <h1 id="new-title">Nová kaviareň</h1>
+                    </div>
+                    <div class="new-card-body">
+                        <div class="card-body-container">
+                            <div class="card-body-image">
+                                <img src="subjects\kaviaren.jpg" alt="" class="coffe_image">
+                            </div>
+                            <div class="card-body-item">
+                                <h3 id="text" class="text">Oznamujeme s radosťou: Otvárame novú kaviareň v Bratislave! Pridajte sa k nám a užívajte si lahodnú kávu a príjemnú atmosféru. Tešíme sa na vašu návštevu! </h3>
+                                <!-- <script> 
+                                    document.getElementsId("text").innerHTML = "Hello World!";
+                                </script> -->
+                            </div>
+                        </div>
+                        <div class="card-body-container-bottom">
+                            <div></div>
+                            <div class="card-body-button-link">
+                                <a href="#"> <h3>Čítať viac</h3></a>
+                            </div>
+                            <div class="card-body-emoji">
+                                <a href="https://www.instagram.com/?hl=en"><img src="subjects\instagram_icon.png" alt=""></a>
+                            </div>
+                        </div>  
+                    </div>  
+                </div>  
+            </section>
+            <section>
+                <div class="open-hours-container">
+                    <div class="working-days">
+                        <div class="working-days-header"><h1>Pracovné dni:</h1></div>
+                        <div class="amogus"><h2>
+
+                            Ranná zmena: 7:00 hod. do 11:00 hod.
+                            
+                            Začnite svoj deň s čerstvou šálkou kávy!
+                            Denná zmena: 11:00 hod. do 15:00 hod.
+                            
+                            Prestávka na obednú kávičku pre tých, ktorí sú v pohybe.
+                            Popoludňajšia zmena: 15:00 hod. do 19:00 hod.
+                            
+                            Užite si popoludňajšie osvieženie.</h2>
+                    </div></div>   
+                </div>
+            </section>
+        </section>
+    </main>    
+    <footer>
+        <div class="container-footer">
+            <h2 class="copyright_text">Copyright &copy; QuickCoffe. Rights Reserved</h2>
+        </div>
+    </footer>
+    
+
+</body>
 </html>

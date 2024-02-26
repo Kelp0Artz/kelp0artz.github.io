@@ -1,0 +1,326 @@
+:root {
+    --menu-header_height: 7.5vh;
+    --menu-header-item_height: 2.5vh;
+    --menu-header-item_padding: 2.5vh;
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e3dcd2;
+    min-width: 320px;
+}
+.background-col{
+    top: 0;
+    display: block;
+    position: absolute;
+    width: 33.33vw;
+    height: 100vh;
+    background-color: transparent;
+    border-right: rgba(0, 0, 0, 0.24) 2px dashed;
+    z-index: -1; 
+}
+#column_2 {
+    right:33.33vw;
+}
+#column_3 {
+    right: 0;
+    border-right: none;
+}
+/**********
+MENU-HEADER
+**********/
+.menu-header {
+    background-color: #cc8b65;
+    height: var(--menu-header_height);
+    width: 100%;
+    margin-bottom: 5%;
+    box-shadow: 0 5px 30px #441608;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container-menu-header {
+    display: inline-flex;
+    flex-flow: row; 
+    justify-content: space-evenly;
+    
+}
+.card-body-container {
+    display: inline-flex;
+    flex-flow: column; 
+}
+.card-body-container-bottom {
+    display: inline-flex;
+    
+    
+    
+}
+.doodles {
+    position: absolute;
+    width: 100%;
+    height: var(--menu-header_height);
+    opacity: 0.15;
+    z-index: 0;
+}
+.doodles img {
+    width: 100%;
+    height: 100%;
+}
+.item {
+    z-index: 1;
+}
+.menu-text {
+    font-size: var(--menu-header-item_height);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    align-items: center;
+
+}
+.shop_icon {
+    height: 6.5vh;
+    border-radius: 100px;
+    align-self: auto;
+
+}
+/**********
+MAIN
+**********/
+.news {
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+.new-card-body-container {
+    width: 90%;
+    max-width: 445px; 
+    display: block;
+    height: 100%;
+    margin: 0px auto;
+    background-color: #ebc999;
+    box-shadow: 10px 10px 1px #e09f5080; 
+    border-radius: 25px;
+}
+.new-card-body-header {
+    width: 95%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+} 
+#new-title {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 200%;
+    margin-left: 3%;
+    position: relative;
+}
+.new-card-body {
+    width: 95%;
+    height: 75%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    background-color: #ebc999;
+    border-radius: 25px;
+    
+}
+.card-body-container {
+    width: 100%;
+}
+.card-body-image {
+    width: 90%;
+    height: 13.5vh;
+    background-color: #e09f5080;
+    border-radius: 10px;
+    margin: 3% auto;
+    margin-bottom: 5%;
+}
+.card-body-item h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    margin: 0 5%;
+    text-align: justify;
+    font-size: 100%;
+}
+.card-body-container-bottom {
+    height: 25%;
+    width: 100%;
+}
+.card-body-button-link {
+    margin: 2.5% 5%;
+    flex-grow: 1;
+    background-color: #cc8b65;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    
+}
+.card-body-button-link a  {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #382917;
+    font-size: 999%;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+.card-body-button-link a h3 {
+    font-size: 25%;
+}
+.card-body-emoji {
+    width: 10%;
+    margin: 2.5% 5% 0;
+}
+.card-body-emoji a img {
+    width: 100%;
+    
+}
+.coffe_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/**********
+MENU
+**********/
+.menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.shop-menu-header {
+    width: 90%;
+}
+.shop-menu-container {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+    height: 50%;
+    background-color: #ebc999;
+    border-radius: 25px;
+    box-shadow: 10px 10px 1px #e09f5080; 
+}
+.drink-name {
+    margin: 3%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.drink-name h2 {
+    color: #ffffff;
+    font-size: 150%;
+}
+.menu-image {
+    width: 90%;
+    height: 25%;
+    margin: 3% auto 0%;
+}
+.menu-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.menu-menu-text {
+    margin: auto;
+    width: 90%;
+    height: 25%;
+    text-align: left;
+}
+.menu-menu-text h2 {
+    width: 90%;
+    height: 100%;
+    font-size: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    margin: 0 5%;
+    text-align: justify;
+    font-size: 100%;
+    margin-bottom: 10%;
+}
+.shop-menu-header {
+    width: 90%;
+    margin: auto;
+    height: 50%;
+    background-color: #ebc999;
+    border-radius: 25px;
+    box-shadow: 5px 5px 1px #e09f5080; 
+    text-align: center;
+    margin-bottom: 3%;
+}
+.shop-menu-header {
+    font-size: var(--menu-header-item_height);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    align-items: center;
+}
+.last_menu {
+    margin-bottom: 10%;
+}
+/**********
+Open hours
+**********/
+.amogus {
+    width: 90%;
+    height: 35%;
+    margin: auto;
+    background-color: #ebc999;
+    border-radius: 25px;
+    margin-bottom: 3%;
+}
+.working-days-header {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background-color: #ebc999;
+    border-radius: 25px;
+    box-shadow: 5px 5px 1px #e09f5080; 
+    text-align: center;
+    margin-bottom: 3%;
+}
+.working-days-header h1 {
+    font-size: var(--menu-header-item_height);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    align-items: center;
+}
+.open-hours-container h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    margin: 0 5%;
+    text-align: justify;
+    font-size: 100%;
+    margin: 3%;
+    padding: 5%;
+}
+/**********
+FOOTER
+**********/
+.container-footer {
+    background-color: #cc8b65;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+.copyright_text {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width:430px){
+    .news {
+        flex-direction: column;
+        
+    }
+    .new-card-body-container {
+        margin-bottom: 7.5%;
+    }
+}

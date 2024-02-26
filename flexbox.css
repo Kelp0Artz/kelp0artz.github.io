@@ -1,0 +1,22 @@
+.container-menu-header {
+    display: inline-flex;
+    flex-flow: row; 
+    justify-content: space-evenly;
+    
+}
+.card-body-container {
+    display: inline-flex;
+    flex-flow: column; 
+}
+.card-body-container-bottom {
+    display: inline-flex;
+    
+    
+    
+}
+
+@media only screen and (min-width: 575px) {
+    
+    
+
+}
