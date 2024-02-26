@@ -18,7 +18,7 @@ body {
     display: block;
     position: absolute;
     width: 33.33vw;
-    height: 100vh;
+    height:100%;
     background-color: transparent;
     border-right: rgba(0, 0, 0, 0.24) 2px dashed;
     z-index: -1; 
@@ -111,9 +111,9 @@ MAIN
 .new-card-body-header {
     width: 95%;
     height: 15%;
-    display: flex;
     align-items: center;
     margin: 0 auto;
+    text-align: center;
 } 
 #new-title {
     font-family: 'Poppins', sans-serif;
